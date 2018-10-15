@@ -18,6 +18,6 @@ Flow Control
   * exceptions type
 
 Reference:
-https://docs.oracle.com/
-David FlanaganJava™ in a Nutshell: A Deskop Quick Reference. 
-by 
+https://docs.oracle.com/ 
+David FlanaganJava™ in a Nutshell: A Deskop Quick Reference. O'reilly 
+Java in Action. Manning Publications
