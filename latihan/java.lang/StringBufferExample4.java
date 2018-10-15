@@ -1,4 +1,5 @@
-http://www.hudatutorials.com//* Save with file name StringBufferExample4.java */
+// http://www.hudatutorials.com
+/* Save with file name StringBufferExample4.java */
  
 public class StringBufferExample4
 {
