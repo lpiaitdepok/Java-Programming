@@ -1,4 +1,4 @@
-/http://www.hudatutorials.com
+// http://www.hudatutorials.com
 /* Save with file name StringBuilderExample3.java */ 
  
 public class StringBuilderExample3
