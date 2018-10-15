@@ -1,3 +1,4 @@
+// The Java Tutorials. Oracle
 public class StringSwitchDemo {
     public static void main(){
 
