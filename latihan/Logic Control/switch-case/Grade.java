@@ -9,6 +9,7 @@ public class Grade {
          case 'A' :
             System.out.println("Excellent!"); 
             break;
+         // OR logic
          case 'B' :
          case 'C' :
             System.out.println("Well done");
