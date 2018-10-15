@@ -1,5 +1,5 @@
 //www.tutorialspoint.com
-public class Gr {
+public class Grade {
 
    public static void main(String args[]) {
       // char grade = args[0].charAt(0);
