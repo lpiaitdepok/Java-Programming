@@ -1,3 +1,5 @@
+referensi: www.javaworld.com
+
 # Data Structures in Java
 Creating a new and empty list
 Appending a value to the end of the list
