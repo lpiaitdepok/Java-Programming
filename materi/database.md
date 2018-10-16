@@ -3,6 +3,7 @@ www.ntu.edu.sg
 www.homeandlearn.co.uk
 
 # Database cycle
+* create database
 * load database
 * display or modification data
   * transaction
