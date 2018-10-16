@@ -28,3 +28,14 @@ class ImportTest {
         System.exit(0);
     }
 }
+
+//Java 5 added an import static option that allows static variables (typically constants) to be referenced without qualifying them with a class name. For example, after
+import static java.awt.Color;
+
+//It would then be possible to write
+
+   Color background = RED;
+
+//instead of
+
+   Color background = Color.RED;
