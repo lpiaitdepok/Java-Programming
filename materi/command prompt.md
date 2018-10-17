@@ -1,3 +1,5 @@
+referensi:alvinalexander.com
+
 # Buffered Reader
 ```
 import java.io.BufferedReader;
@@ -18,6 +20,7 @@ import java.io.InputStreamReader;
         System.out.println("Enter a String"); 
         String b = br.readLine();
 ```
+
 # BufferedReader and StringTokenizer
 
 # DataInputStream
@@ -32,6 +35,21 @@ Scanner sc = new Scanner(System.in);
 int t = sc.nextInt();
 String b = scn.nextLine();
 ```
+| STATEMENT     | DESCRIPTION                                                                              | 
+|---------------|------------------------------------------------------------------------------------------| 
+| next          | finds and returns the next complete token from this scanner                              | 
+| next(pattern) | returns the next token if it matches the specified pattern                               | 
+| nextBoolean   | returns true if the next token in this scanner's input can be interpreted                | 
+|               | as a boolean value using a case insensitive pattern created from the string "true|false" | 
+| nextByte      | scans the next token of the input as a byte                                              | 
+| nextDouble    | scans the next token of the input as a double                                            | 
+| nextFloat     | scans the next token of the input as a float                                             | 
+| nextInt       | scans the next token of the input as an int                                              | 
+| nextLine      | advances this scanner past the current line and returns the input that was skipped       | 
+| nextLong      | scans the next token of the input as a long                                              | 
+| nextShort     | scans the next token of the input as a short                                             | 
+
+
 # Console
 ````
 // Using Console to input data from user 
