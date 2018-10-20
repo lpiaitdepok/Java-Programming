@@ -1,6 +1,6 @@
 /** @author DoberFrann */
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Bank {
   public static void main(String[] args) {
@@ -56,5 +56,18 @@ public class ReadConsole {
     Scanner keyboard = new Scanner(System.in);
     int i = keyboard.nextInt();
     return i;
+  }
+}
+
+public class BankAccount {
+ static int account = 0;
+  
+  // This method display the amount in our account
+  static public void display() {
+    System.out.println("You have : " + account + ".");
+  }
+  // This method is used to deposit money in our account
+  static public void deposit() {
+    System.out.print("Insert amount to deposit: ");
   }
 }
