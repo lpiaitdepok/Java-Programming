@@ -57,10 +57,15 @@ public class ReadConsole {
     int i = keyboard.nextInt();
     return i;
   }
+  public static double nextDouble() {
+   Scanner keyboard = new Scanner(System.in);
+    double d = keyboard.nextDouble();
+    return d;
+  }
 }
 
 public class BankAccount {
- static int account = 0;
+ static double account = 0;
   
   // This method display the amount in our account
   static public void display() {
@@ -69,5 +74,13 @@ public class BankAccount {
   // This method is used to deposit money in our account
   static public void deposit() {
     System.out.print("Insert amount to deposit: ");
+    double deposit = ReadConsole.nextDouble();
+    account = account + deposit;
+  }
+  // This method is used to withdraw money from our account
+  static public void withdraw() {
+    System.out.print("Insert amount to withdraw: ");
+    double withdraw = ReadConsole.nextDouble();
+    account = account - withdraw;
   }
 }
