@@ -1,6 +1,7 @@
 /** @author DoberFrann */
 
 import java.util.Scanner;
+import java.util.Scanner.*;
 
 public class Bank {
   public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class Bank {
       System.out.println("[3] WITHDRAW MONEY");
       System.out.println("[4] QUIT");
       
-      System.out.println("Inser selection: ");
+      System.out.println("Insert selection: ");
       selection = ReadConsole.nextInt();
       
       switch (selection) {
@@ -37,7 +38,8 @@ public class Bank {
   }
 }
 
-public class ReadConsole {
+// public 
+class ReadConsole {
   public static int getInteger() {
     try {
       byte[] buffer = new byte[512];
@@ -64,7 +66,8 @@ public class ReadConsole {
   }
 }
 
-public class BankAccount {
+// public 
+class BankAccount {
  static double account = 0;
   
   // This method display the amount in our account
