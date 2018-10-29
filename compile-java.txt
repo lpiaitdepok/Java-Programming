@@ -1,0 +1,7 @@
+Compile Java di Windows:
+1. Set path
+2. path harus di lokasi binary JDK dari Java, contoh: "C:\Program Files\Java\jdk1.8.0_172\bin"
+3. buka Command Prompt.
+4. Pindah ke lokasi penyimpanan source code Java. Jika anda menyimpan source code Java di "d:\latihan-java" ketik D: (untuk pindah drive nya) lalu cd D:\latihan-java
+5. ketik javac "nama_file.java", contoh: javac latihan1.java
+6. untuk menjalankan program, ketik java "nama_file.java", contoh: javac latihan1
