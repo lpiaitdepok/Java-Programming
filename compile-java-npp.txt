@@ -2,9 +2,13 @@
 
 1. Install atau copy Notepad++ ke local disk
 2. copy NPP_Exec ke folder plugin Notepad++
-3. Klik menu Plugin
-
+3. Klik menu Plugins > NppExec > Execute...
+4. Untuk Compile and Run Java, copy command di bawah ini:
 NPP_SAVE
 cd $(CURRENT_DIRECTORY)
 javac $(FILE_NAME)
+java -cp . $(NAME_PART)
+
+Untuk Run Java, copy command di bawah ini:
+cd $(CURRENT_DIRECTORY)
 java -cp . $(NAME_PART)
