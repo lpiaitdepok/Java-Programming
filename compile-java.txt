@@ -4,4 +4,4 @@ Compile Java di Windows:
 3. buka Command Prompt.
 4. Pindah ke lokasi penyimpanan source code Java. Jika anda menyimpan source code Java di "d:\latihan-java" ketik D: (untuk pindah drive nya) lalu cd D:\latihan-java
 5. ketik javac "nama_file.java", contoh: javac latihan1.java
-6. untuk menjalankan program, ketik java "nama_file.java", contoh: javac latihan1
+6. untuk menjalankan program, ketik java "nama_file.java", contoh: java -cp . latihan1
