@@ -7,3 +7,8 @@
 * Deleting data from a table: this tutorial provides the steps for deleting existing data in a table.
 * Managing transaction: this tutorial shows you how to manage SQLite transaction using Java JDBC API such as setAutoCommit, commit, and rollback.
 * Writing and Reading SQLite BLOB : we will show you how to update the SQLite BLOB data into a table and query BLOB data for displaying.
+
+referensi:
+https://www.sqlite.org/
+www.sqlitetutorial.net
+https://www.tutorialspoint.com/
