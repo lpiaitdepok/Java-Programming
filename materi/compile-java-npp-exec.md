@@ -1,5 +1,7 @@
 ## Java compile and run using notepad++ and nppexec
 
+
+
 ### inside npp_exec console
 ```
 // compile java only 1
