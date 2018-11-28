@@ -1,6 +1,6 @@
 ## Java compile and run using notepad++ and nppexec
 
-
+press F6
 
 ### inside npp_exec console
 ```
