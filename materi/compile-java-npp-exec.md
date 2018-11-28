@@ -1,6 +1,6 @@
-// Java compile and run using notepad++ and nppexec
+## Java compile and run using notepad++ and nppexec
 
-# inside npp_exec console
+### inside npp_exec console
 ```
 // compile java only 1
 NPP_SAVE
@@ -32,7 +32,7 @@ javac $(FILE_NAME)
 java -cp .;"./sqlite-jdbc-3.23.1.jar" $(NAME_PART)
 ```
 
-# in console ( command prompt  windows or terminal linux )
+### in console ( command prompt  windows or terminal linux )
 ```
 // compile and run java 2
 NPP_SAVE
