@@ -2,9 +2,9 @@
 
 # inside npp_exec console
 // compile java only 1
-NPP_SAVE
-cd $(CURRENT_DIRECTORY)
-javac $(FILE_NAME)
+  NPP_SAVE
+  cd $(CURRENT_DIRECTORY)
+  javac $(FILE_NAME)
 
 // run java only 1
 // without package
@@ -27,4 +27,4 @@ java -cp .;"./sqlite-jdbc-3.23.1.jar" $(NAME_PART)
 # in console ( command prompt  windows or terminal linux )
 // compile and run java 2
 NPP_SAVE
-cmd /c pushd "$(CURRENT_DIRECTORY)" && javac "$(FILE_NAME)" java -cp . "$(NAME_PART)"
+cmd /c pushd "$(CURRENT_DIRECTORY)" && javac "$(FILE_NAME)" && java -cp . "$(NAME_PART)"
