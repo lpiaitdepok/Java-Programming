@@ -1,4 +1,7 @@
 ## Java compile and run using notepad++
+
+press F5
+
 ### close console when finish running program
 ```batch
 // compile and run java 1
