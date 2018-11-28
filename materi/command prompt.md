@@ -1,7 +1,7 @@
 referensi:alvinalexander.com
 
 # Buffered Reader
-```
+```java
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -26,7 +26,7 @@ import java.io.InputStreamReader;
 # DataInputStream
 
 # Scanner
-```
+```java
 import java.util.Scanner;
 // Using Scanner class to take input 
 Scanner sc = new Scanner(System.in); 
@@ -35,6 +35,7 @@ Scanner sc = new Scanner(System.in);
 int t = sc.nextInt();
 String b = scn.nextLine();
 ```
+
 | STATEMENT     | DESCRIPTION                                                                              | 
 |---------------|------------------------------------------------------------------------------------------| 
 | next          | finds and returns the next complete token from this scanner                              | 
@@ -50,13 +51,13 @@ String b = scn.nextLine();
 
 
 # Console
-````
+```java
 // Using Console to input data from user 
 String name = System.console().readLine(); 
-````
+```
 
 # Runtime
-```
+```java
 Runtime rt = Runtime.getRuntime();
 Process proc = rt.exec("ping localhost");
 ```
