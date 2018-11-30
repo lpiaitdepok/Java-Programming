@@ -2,7 +2,7 @@
 
 //Making a class field public can cause lot of issues in a program. For instance you may have a class called MyCalender. This class contains an array of String weekdays. You may have assume that this array will always contain 7 names of weekdays. But as this array is public, it may be accessed by anyone. Someone by mistake also may change the value and insert a bug!
 
-public class MyCalender {
+public class MyCalendar {
 	
 	public String[] weekdays = 
 		{"Sun", "Mon", "Tue", "Thu", "Fri", "Sat", "Sun"};
