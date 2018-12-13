@@ -23,7 +23,9 @@ java -cp . $(NAME_PART)
 NPP_SAVE
 cd $(CURRENT_DIRECTORY)
 javac $(FILE_NAME)
+IF $(EXITCODE) != 0 GOTO EXITSCRIPT
 java -cp . $(NAME_PART)
+:EXITSCRIPT
 ```
 
 ```
