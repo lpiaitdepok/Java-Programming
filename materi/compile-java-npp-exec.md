@@ -2,7 +2,7 @@
 
 press F6
 
-### inside npp_exec console
+### inside npp_exec Execute...
 ```
 // compile java only 1
 NPP_SAVE
@@ -33,6 +33,7 @@ java -cp . $(NAME_PART)
 NPP_SAVE
 cd $(CURRENT_DIRECTORY)
 javac $(FILE_NAME)
+NPP_SETFOCUS con
 java -cp .;"./sqlite-jdbc-3.23.1.jar" $(NAME_PART)
 ```
 
