@@ -18,7 +18,7 @@ cd $(CURRENT_DIRECTORY)
 java -cp . $(NAME_PART)
 ```
 
-```
+```bash
 // compile and run java 1
 NPP_SAVE
 cd $(CURRENT_DIRECTORY)
@@ -26,6 +26,17 @@ javac $(FILE_NAME)
 IF $(EXITCODE) != 0 GOTO EXITSCRIPT
 java -cp . $(NAME_PART)
 :EXITSCRIPT
+```
+
+```bash
+// compile and run java using package
+NPP_SAVE
+cd $(CURRENT_DIRECTORY)
+javac "../package_folder/$(FILE_NAME)"
+IF $(EXITCODE) == 1 GOTO EXITSCRIPT
+NPP_SETFOCUS Con
+java -cp .. "package_folder/$(NAME_PART)"
+: EXITSCRIPT
 ```
 
 ```
