@@ -14,3 +14,4 @@
 
 # java.lang
 * Exception
+* ClassNotFoundException
