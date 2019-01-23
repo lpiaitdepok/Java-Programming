@@ -1,7 +1,7 @@
 // The Java Tutorials. Oracle
 class Variable
 {
-	public static void main( String[] args ){
+    public static void main( String[] args ){
 
 	//number variable
     byte byteVal = 100;
