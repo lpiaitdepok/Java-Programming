@@ -10,3 +10,5 @@ gui layout in java:
   * javax.swing.GroupLayout
   * javax.swing.ScrollPaneLayout
   * javax.swing.SpringLayout
+
+referensi:  Universitas Pembangunan Nasional "Veteran" Jakarta, Universitas Brawijaya, Calvin University, https://www.javatpoint.com/, https://www.tutorialspoint.com/j
