@@ -11,4 +11,4 @@ gui layout in java:
   * javax.swing.ScrollPaneLayout
   * javax.swing.SpringLayout
 
-referensi:  Universitas Pembangunan Nasional "Veteran" Jakarta, Universitas Brawijaya, Calvin University, https://www.javatpoint.com/, https://www.tutorialspoint.com/j
+referensi:  Universitas Pembangunan Nasional "Veteran" Jakarta, Universitas Brawijaya, Calvin University, HOBART AND WILLIAM SMITH COLLEGES, https://www.javatpoint.com/, https://www.tutorialspoint.com/
