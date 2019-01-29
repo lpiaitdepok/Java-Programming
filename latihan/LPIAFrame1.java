@@ -1,5 +1,5 @@
 import javax.swing.JFrame;
-public class LPIAFrame extends JFrame {
+public class LPIAFrame1 extends JFrame {
   public static void main(String[] args) {
     //Create and set up the window.
     JFrame frame = new JFrame("LPIA Frame");
