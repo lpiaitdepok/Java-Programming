@@ -17,7 +17,8 @@ Ctrl+Space: AutoComplete
 ## Navigate
 ````
 CTRL+F12 - Navigate to Member
-CTRL+7 - Activate Navigator WindowCTRL+1 - Project Window
+CTRL+7 - Activate Navigator Window
+CTRL+1 - Project Window
 CTRL+2 - Files Window
 CTRL+3 - Favorite Window
 CTRL+4 - Output Window
