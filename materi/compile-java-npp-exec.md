@@ -47,6 +47,7 @@ javac $(FILE_NAME)
 NPP_SETFOCUS con
 java -cp .;"./sqlite-jdbc-3.23.1.jar" $(NAME_PART)
 ```
+using jdbc library in : https://github.com/xerial/sqlite-jdbc/
 
 ### in console ( command prompt  windows or terminal linux )
 ```
