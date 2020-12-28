@@ -49,6 +49,18 @@ java -cp .;"./sqlite-jdbc-3.23.1.jar" $(NAME_PART)
 ```
 using jdbc library in : https://github.com/xerial/sqlite-jdbc/
 
+
+```
+//  compile and run java using package
+NPP_SAVE
+cd $(CURRENT_DIRECTORY)
+java -d . package-name.$(FILE_NAME)
+IF $(EXITCODE) == 1 GOTO EXITSCRIPT
+NPP_SETFOCUS Con
+java "package_folder.$(NAME_PART)"
+: EXITSCRIPT
+```
+
 ### in console ( command prompt  windows or terminal linux )
 ```
 // compile and run java 2
