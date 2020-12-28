@@ -57,7 +57,7 @@ cd $(CURRENT_DIRECTORY)
 java -d . package-name.$(FILE_NAME)
 IF $(EXITCODE) == 1 GOTO EXITSCRIPT
 NPP_SETFOCUS Con
-java "package_folder.$(NAME_PART)"
+java -cp . "package_folder.$(NAME_PART)"
 : EXITSCRIPT
 ```
 
