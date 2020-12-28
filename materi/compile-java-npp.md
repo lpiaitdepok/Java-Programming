@@ -8,8 +8,8 @@ press F5
 cmd /c pushd "$(CURRENT_DIRECTORY)" && javac "$(FILE_NAME)" && java -cp . "$(NAME_PART)"
 ```
 
-```batch
 ### does not close console when finish running program
+```batch
 // compile and run java 2
 cmd /k pushd "$(CURRENT_DIRECTORY)" && javac "$(FILE_NAME)" && java -cp . "$(NAME_PART)"
 ```
