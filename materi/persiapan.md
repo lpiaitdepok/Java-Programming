@@ -12,3 +12,5 @@
 3. Click Environment Variables. In the section System Variables find the PATH environment variable and select it. Click Edit. If the PATH environment variable does not exist, click New.
 4. In the Edit System Variable (or New System Variable) window, specify the value of the PATH environment variable. Click OK. Close all remaining windows by clicking OK.
 5. Reopen Command prompt window, and run your java code.
+
+https://java.com/, Java: A Beginner Guide. Herbert Schildt
