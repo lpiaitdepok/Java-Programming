@@ -13,4 +13,8 @@
 4. In the Edit System Variable (or New System Variable) window, specify the value of the PATH environment variable. Click OK. Close all remaining windows by clicking OK.
 5. Reopen Command prompt window, and run your java code.
 
+Check Java Version:
+* open command prompt
+* type java -version
+
 https://java.com/, Java: A Beginner Guide. Herbert Schildt
