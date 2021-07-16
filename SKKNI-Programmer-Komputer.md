@@ -1,4 +1,4 @@
-## Menganalisis Tools
+## Menganalisis Tools Pemrograman
 * Compiler
 * Editor
 * Database
