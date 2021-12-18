@@ -24,7 +24,7 @@ public class JendelaTengah extends JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("www.petanikode.com");
+        jLabel1.setText("petanikode");
 
         getContentPane();
 		add(jLabel1);
