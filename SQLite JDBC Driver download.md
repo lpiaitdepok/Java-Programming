@@ -1,4 +1,6 @@
-sqlite jdbc driver digunakan untuk menghubungkan program java dengan database sqlite.
+sqlite jdbc driver use for connect java program with sqlite database.
+
+I am using this https://github.com/xerial/sqlite-jdbc/ open source.
 
 
 download sqlite jdbc driver:
