@@ -43,6 +43,17 @@ java -cp .. "package_folder/$(NAME_PART)"
 // compile and run java using sqlite class
 NPP_SAVE
 cd $(CURRENT_DIRECTORY)
+javac -cp .;"./sqlite-jdbc-3.23.1.jar" $(FILE_NAME)
+NPP_SETFOCUS con
+java -cp .;"./sqlite-jdbc-3.23.1.jar" $(NAME_PART)
+```
+
+or
+
+```
+// compile and run java using sqlite class
+NPP_SAVE
+cd $(CURRENT_DIRECTORY)
 javac $(FILE_NAME)
 NPP_SETFOCUS con
 java -cp .;"./sqlite-jdbc-3.23.1.jar" $(NAME_PART)
